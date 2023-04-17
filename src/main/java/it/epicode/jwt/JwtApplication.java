@@ -32,8 +32,8 @@ public class JwtApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-			List<Role> roles = initRole();
-			initUser(roles);
+			//List<Role> roles = initRole();
+			//initUser(roles);
 	}
 
 	private List<Role> initRole() {
